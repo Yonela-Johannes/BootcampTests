@@ -1,5 +1,5 @@
 // Count all From Town test function
-describe('Count All From Town Function', () => {
+describe('Count All From Town', () => {
     // check if it's empty
     it('should not accept empty registration number input', () => {
         const response = countAllFromTown('CL 124,CY 567,CL 345, CJ 456,CL 341', '')

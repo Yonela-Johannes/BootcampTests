@@ -1,5 +1,5 @@
 // Total Phone Bill Test Function
-describe("Total Phone Bill function", () => {
+describe("Total Phone Bill", () => {
     // invalid input
     it("should not be empty", () => {
         const result = totalPhoneBill('')

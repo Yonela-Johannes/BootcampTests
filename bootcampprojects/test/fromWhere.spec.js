@@ -1,4 +1,4 @@
-describe('From Where Function', () => {
+describe('From Where', () => {
     it('should return corresponding registration name', () => {
         const response = fromWhere('CA')
         assert.equal(response, 'Cape Town')

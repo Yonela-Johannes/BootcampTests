@@ -1,5 +1,5 @@
-// registration number function test
-describe('Registration Number Function', () => {
+// count registration number function test
+describe('Count Registration Number', () => {
     // Should return correct answer
     it('should return the length of the registration number', () => {
         const response = countRegNumber('CA 182736')
@@ -10,4 +10,4 @@ describe('Registration Number Function', () => {
         const response = countRegNumber(20)
         assert.equal(response, "invalid input")
     })
-})
+});

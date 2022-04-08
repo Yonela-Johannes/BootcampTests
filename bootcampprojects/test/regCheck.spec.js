@@ -1,5 +1,5 @@
 // Registration Check Function
-describe('Registration Check Function', () => {
+describe('Registration Check', () => {
     it('should return correct registration number', () => {
         const response = regCheck('FGT 123 MP', 'MP')
         assert.equal(response, true)

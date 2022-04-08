@@ -1,5 +1,5 @@
 // Years ago function
-describe('YearsAgo function', () => {
+describe('Years Ago', () => {
     // take four numbers
     it('should take four numbers', () => {
         const result = yearsAgo(20144)

@@ -1,5 +1,5 @@
 // Most Profitable Department Function
-describe('Most Profitable Department Funtion', () => {
+describe('Most Profitable Department', () => {
     // 
     it('should return the most protable day', () => {
         const response = mostProfitableDepartment(salesData)

@@ -1,9 +1,10 @@
 mocha.setup('bdd');
-var assert = chai.assert;
+const assert = chai.assert;
+const expect = chai.expect;
 mocha.checkLeaks();
 mocha.run();
 
-describe("Greet function", () => {
+describe("Greet", () => {
     // check if name is valid
     describe('enter valid name', () => {
         const result = greet('Yanga')
@@ -12,13 +13,13 @@ describe("Greet function", () => {
         })
     });
     // check if name is a string
-        it(`should be a string`, () => {
-            const result = greet('Yonela')
-            assert.equal(`Hello Yonela`, result)
-        })
+    it(`should be a string`, () => {
+        const result = greet('Yonela')
+        assert.equal(`Hello Yonela`, result)
+    })
     // check if input is empty
-        it(`should not be empty`, () => {
-            const result = greet("Lukhanyo")
-            assert.equal(`Hello Lukhanyo`, result)
-        })
+    it(`should not be empty`, () => {
+        const result = greet("Lukhanyo")
+        assert.equal(`Hello Lukhanyo`, result)
+    })
 })

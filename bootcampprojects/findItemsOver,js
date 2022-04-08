@@ -1,7 +1,7 @@
 // objects
-const answer = [
-    { name: 'bananas', qty: 17 },
+const findItemsAnswer = [
     { name: 'pears', qty: 19 },
+    { name: 'bananas', qty: 17 }
 ];
 
 const itemList2 = [

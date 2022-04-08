@@ -3,6 +3,7 @@ describe('Find Items Over', () => {
     // should return correct list
     it('should return items greater than given price', () => {
         let response = findItemsOver(itemList2, 15)
+        assert.deepEqual(response, findItemsAnswer)
     });
     // should be an array
     it('should be an array', () => {

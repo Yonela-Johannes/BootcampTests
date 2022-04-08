@@ -3,7 +3,7 @@ describe('Over Twenty', () => {
     // should return items over 20
     it('should return items over 20', () => {
         const response = findItemsOver20(itemList);
-        expect(response).to.be.eq(itemsOver20Answer)
+        assert.deepEqual(response, itemsOver20Answer)
     });
 
     // string input

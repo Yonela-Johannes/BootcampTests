@@ -11,6 +11,7 @@ const itemList2 = [
     { name: 'apples', qty: 3 },
 ];
 
+// function
 const findItemsOver = (items, limit) => {
     if (items == '') {
         return 'enter array!'

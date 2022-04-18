@@ -17,7 +17,7 @@ const findItemsOver20 = (items) => {
     } else if (typeof items == 'number') {
         return 'Input should not be a number, enter list'
     } else {
-        let listOver20 = items.map(list => {
+                items.map(list => {
             if (list.qty > higherQuantity) {
                 overTwentyList = [...overTwentyList, list]
             }
